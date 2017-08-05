@@ -27,14 +27,20 @@ button{
 	color: white;
 }
 
-.jumbotron{
-	background-image: url("../image/train1.jpg");
-	 background-size:500px 325px;
+.heading{
+	background-image: url("../image/train2.png");
+	background-size:500px 325px;
     background-repeat: no-repeat;
     background-position: right;
     background-color: #0bbbe8;
-    height: 300px;
+    height: 200px;
+    font-size: 30px;
 	color: white;
+}
+
+.heading h1{
+	font-size: 60px;
+
 }
 
 .panel-heading{	 
