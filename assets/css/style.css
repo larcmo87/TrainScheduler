@@ -27,20 +27,15 @@ button{
 	color: white;
 }
 
-.heading{
-	background-image: url("../image/train2.png");
-	background-size:500px 325px;
+.jumbotron{
+	/*background-image: url("../image/train2.png");
+	 background-size:500px 325px;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right;*/
     background-color: #0bbbe8;
-    height: 200px;
-    font-size: 30px;
+    height: 300px;
 	color: white;
-}
-
-.heading h1{
-	font-size: 60px;
-
+	text-align: center;
 }
 
 .panel-heading{	 
@@ -60,16 +55,10 @@ button{
 	 border-radius: 6px;
 }
 
-@media only screen and (max-width: 992px){
-	.jumbotron{
+@media only screen and (max-width: 768px){
+	.jumbotron h2{
 
-		background-image: url("../image/train2.png");
-		 background-size:400px 250px;
-	    background-repeat: no-repeat;
-	    background-position: right;
-	    background-color: #0bbbe8;
-	    height: 300px;
-		color: white;
+		font-size: 20px;
 	}
 }
 
@@ -117,18 +106,18 @@ button{
 
 
 @media only screen and (max-width: 625px){
-	.jumbotron{
+	.jumbotron h2{
 
-		background-image: url("../image/train2.png");
+		/*background-image: url("../image/train2.png");
 		 background-size:250px 250px;
 	    background-repeat: no-repeat;
-	    background-position: right;
-	  
+	    background-position: right;*/
+	  	font-size: 20px;
 	}
 }
 
 @media only screen and (max-width: 463px){
-	.jumbotron{
+	/*.jumbotron{
 
 		background-image: url("../image/train2.png");
 		 background-size:180px 180px;
@@ -139,7 +128,7 @@ button{
 		
 		text-align:top;
 	  
-	}
+	}*/
 
 	.panel{
 		margin: 0 auto;
