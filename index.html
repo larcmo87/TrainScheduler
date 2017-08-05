@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 <script type="text/javascript" src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+</head>
+<body>
+	<div class="container-fluid">
+		
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<div class="jumbotron align-middle"">
+							<h1>Train</h1>
+							<h1>Schedule</h1>					
+
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<div class="panel panel-default">
+						  <div class="panel-heading"><h3>Train Times</h3></div>
+						  <div class="panel-body">
+						   <table id="add_train">
+						   	<tr>
+						   		<th><h4>Train Name</h4></th>
+						   		<th><h4>Going To</h4></th>
+						   		<th><h4>Frequency (Min)</h4></th>
+						   		<th><h4>Next Arrival</h4></th>
+						   		<th><h4>Minutes Away</h4></th>
+						   	</tr>
+
+						   </table>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<div class="panel panel-default">
+						  <div class="panel-heading"><h3>Add New Train</h3></div>
+						  <div class="panel-body">
+						    <form role="form">
+						    	<h4>Train Name</h4>
+						    	<input type="text" class="inputs" id="train_name">
+						    	<h4>Destination</h4>
+						    	<input type="text" class="inputs" id="train_dest">
+						    	<h4>Scheduled Start Time (HH:mm -military time)</h4>
+						     	 <input type="text" name="usr_time" placeholder="HH:mm" class="inputs" id="train_stt">
+						     	<h4>Frequency (min)</h4>
+						     	<input  type="number" class="inputs" value="10" id="train_mf">
+						     	<button type="button" class="btn" id="enter_info">Enter Train Data</button>
+
+						    </form>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/script/script.js"></script>
+</body>
+</html>

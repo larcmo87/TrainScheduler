@@ -1,0 +1,177 @@
+h1, h2, h3, h4{
+	font-family:  Helvetica;
+	font-weight: bold;
+}
+
+table{
+	width: 100%;
+}
+
+tr{
+	border-bottom: 1px solid black;	
+}
+
+th{
+	padding-left: 30px;
+	padding-right: 30px;
+}	
+
+td{
+	
+	padding-left: 30px;
+}
+
+button{
+	margin-top: 10px;
+	background-color: #0bbbe8;
+	color: white;
+}
+
+.jumbotron{
+	background-image: url("../image/train2.png");
+	 background-size:500px 325px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #0bbbe8;
+    height: 300px;
+	color: white;
+}
+
+.panel-heading{	 
+   background-color: #0bbbe8 !important;
+   color: white !important;
+}
+
+.panel{
+	border: 1px solid #0bbbe8;
+	 border-radius: 6px;
+}	
+
+.inputs{
+	width: 100%;
+	display:block;
+	/*margin-top: 10px;*/
+	 border-radius: 6px;
+}
+
+@media only screen and (max-width: 992px){
+	.jumbotron{
+
+		background-image: url("../image/train2.png");
+		 background-size:400px 250px;
+	    background-repeat: no-repeat;
+	    background-position: right;
+	    background-color: #0bbbe8;
+	    height: 300px;
+		color: white;
+	}
+}
+
+@media only screen and (max-width: 721px){
+	h1, h2, h3, h4{
+				font-family:  Helvetica;
+				font-weight: bold;
+			}
+
+			table{
+				width: 100%;
+			}
+
+			tr{
+				border-bottom: 1px solid black;
+				/*padding-left: 60px;*/
+				/*margin-left: 70px;*/
+			}
+
+			th{
+				padding-left: 5px;
+				padding-right: 5px;
+			}	
+
+			td{
+				border-left: 2px solid black;
+				border-right: 2px solid black;
+				padding-left: 5px;
+			}
+}
+
+@media only screen and (max-width: 500px){
+	th h4{
+			padding-left: 5px;
+			padding-right: 5px;
+			font-size: 12px;
+		}	
+	td{
+		font-size: 10px;
+		padding-left: 2px;
+		border-left: 2px solid black;
+		border-right: 2px solid black;
+	}
+}
+
+
+@media only screen and (max-width: 625px){
+	.jumbotron{
+
+		background-image: url("../image/train2.png");
+		 background-size:250px 250px;
+	    background-repeat: no-repeat;
+	    background-position: right;
+	  
+	}
+}
+
+@media only screen and (max-width: 463px){
+	.jumbotron{
+
+		background-image: url("../image/train2.png");
+		 background-size:180px 180px;
+	    background-repeat: no-repeat;
+	    background-position: bottom;
+	}
+	.jumbotron h1{
+		
+		text-align:top;
+	  
+	}
+
+	.panel{
+		margin: 0 auto;
+		padding-left:0;
+	}
+		
+	.panel-heading{	 
+   		background-color: #0bbbe8 !important;
+   		color: white !important;
+   		
+	}
+	
+	.panel-heading h3{
+		font-size: 5px !important;
+
+	}
+	table{
+		width:100%;
+		margin-left: 0;
+	}
+
+	th{
+		padding-left: 2px;
+		padding-right: 2px;
+		
+	}
+
+	th h4{
+			padding-left: 2px;	
+			padding-right: 2px;			
+			font-size: 10px;
+		}	
+
+	td{
+		padding-left: 2px;
+		padding-right: 2px;
+
+		font-size: 10px;
+	}
+}
+
